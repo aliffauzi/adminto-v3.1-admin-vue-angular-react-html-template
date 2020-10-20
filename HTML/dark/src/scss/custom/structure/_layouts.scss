@@ -1,0 +1,31 @@
+//
+// layouts.scss
+//
+
+body {
+    &.boxed-layout {
+        background: $gray-700;
+        #wrapper {
+            max-width: $boxed-layout-width;
+            margin: 0 auto;
+            box-shadow: $shadow;
+            background: $body-bg;
+        }
+
+        .navbar-custom {
+            max-width: $boxed-layout-width;
+            margin: 0 auto;
+        }
+
+        .footer {
+            margin: 0 auto;
+            max-width: calc(#{$boxed-layout-width} - #{$leftbar-width});
+        }
+
+        &.enlarged {
+            .footer {
+                max-width: calc(#{$boxed-layout-width} - #{$leftbar-width-collapsed});
+            }
+        }
+    }
+}

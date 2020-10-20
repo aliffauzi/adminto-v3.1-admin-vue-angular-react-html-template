@@ -1,0 +1,15 @@
+//
+// formm-wizard.scss
+//
+
+#commentForm{
+    .error{
+        color: $danger;
+        font-size: 12px;
+        font-weight: $font-weight-medium;
+    }
+}
+
+.form-wizard-header{
+    background-color: lighten($gray-100, 4%) !important;
+}

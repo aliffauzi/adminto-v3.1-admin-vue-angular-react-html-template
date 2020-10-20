@@ -1,0 +1,15 @@
+<div class="row">
+  <div class="col-12">
+    <div class="page-title-box">
+      <div class="page-title-right">
+        <ol class="breadcrumb m-0">
+          <li class="breadcrumb-item" ngClass="{'active': item.active}" *ngFor="let item of breadcrumbItems">
+            <a href="{{item.path}}" *ngIf="!item.active">{{ item.label }}</a>
+            <span *ngIf="item.active">{{ item.label }}</span>
+          </li>
+        </ol>
+      </div>
+      <h4 class="page-title">{{ title }}</h4>
+    </div>
+  </div>
+</div>

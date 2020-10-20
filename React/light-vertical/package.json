@@ -1,0 +1,39 @@
+{
+  "name": "adminto-react-light-vertical",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "availity-reactstrap-validation": "^2.5.1",
+    "bootstrap": "^4.2.1",
+    "jwt-decode": "^2.2.0",
+    "metismenujs": "^1.0.3",
+    "node-sass": "^4.11.0",
+    "react": "^16.7.0",
+    "react-cookie": "^3.1.2",
+    "react-dom": "^16.7.0",
+    "react-loadable": "^5.5.0",
+    "react-perfect-scrollbar": "^1.5.0",
+    "react-redux": "^7.0.2",
+    "react-router-auth": "^1.0.1",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "^2.1.8",
+    "reactstrap": "^8.0.0",
+    "redux": "^4.0.1",
+    "redux-saga": "^1.0.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
