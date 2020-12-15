@@ -29,7 +29,7 @@
     "gulp-sourcemaps": "^2.6.5",
     "gulp-uglify": "^3.0.2",
     "js-yaml": ">=3.13.1",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.19",
     "sass-lint": "^1.13.1",
     "tar": ">=4.4.8"
   },
